@@ -1,3 +1,6 @@
+
+import CreateAccountButton from "./CreateAccountButton";
+
 const Landpage = () => {
     const containerStyle = {
         position: 'relative',        
@@ -24,6 +27,7 @@ const Landpage = () => {
           <img className="d-flex justify-content-center image-fluid object-fit-cover w-100" src={require('./images/header.svg').default} alt="header" style={imageStyle} />
           <div style={textOverlayStyle}>
             <h1 className="fw-bold">People from over 1,300 companies from all over Romania are rediscovering the joy of reading with Bookster</h1>
+            <CreateAccountButton></CreateAccountButton>
             <div className="fw-bolder mt-5">Don't have Bookster yet?</div>
             </div>
         </div>
