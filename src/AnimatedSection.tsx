@@ -13,7 +13,7 @@ const AnimatedSection = () => {
     // marginTop: '50px',
     backgroundColor: '#4B69EA',
     color: '#fff',
-    // backgroundImage: `url(${require('./images/section_header.svg').default})`,
+    backgroundImage: `url(${require('./images/section_header.svg').default})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     padding: '20px'
