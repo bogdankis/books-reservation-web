@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import sectionHeader from './images/section_header.svg';
 
 const AnimatedSection = () => {
   const targets = [190, 1355, 7, 130, 12, 94];
@@ -13,7 +14,7 @@ const AnimatedSection = () => {
     // marginTop: '50px',
     backgroundColor: '#4B69EA',
     color: '#fff',
-    backgroundImage: `url(${require('./images/section_header.svg').default})`,
+    backgroundImage: `url(${sectionHeader})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     padding: '20px'

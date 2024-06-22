@@ -1,5 +1,5 @@
-import Login from "./Login";
-
+import Login from './Login';
+import logotext from './images/logo-text.svg'
 
 const Navbar = () => {
     const containerStyle = {
@@ -13,8 +13,8 @@ const Navbar = () => {
 
 return(
 <div className="d-flex justify-content-between"style={containerStyle}>
-    <img src={require('./images/logo-text.svg').default}  alt="header" width="197px" height="55px"></img>
-    <Login></Login>
+    <img src={logotext}  alt="header" width="197px" height="55px"></img>
+    <Login/>
 </div>
 )
 }

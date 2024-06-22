@@ -8,7 +8,7 @@ import AnimatedSection from './AnimatedSection';
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+       <Navbar></Navbar>
       <Landpage></Landpage>
       <LandingLibrary></LandingLibrary>
       <AnimatedSection></AnimatedSection>
