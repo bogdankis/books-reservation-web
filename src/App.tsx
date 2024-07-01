@@ -5,6 +5,7 @@ import Footer from './Footer';
 import LandingLibrary from './LandingLibrary';
 import AnimatedSection from './AnimatedSection';
 import Benefits from './Benefits';
+import Testimonials from './Testimonials';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <LandingLibrary></LandingLibrary>
       <AnimatedSection></AnimatedSection>
       <Benefits></Benefits>
+      <Testimonials></Testimonials>
       <Footer></Footer>
     </div>
   );
