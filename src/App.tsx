@@ -6,6 +6,7 @@ import LandingLibrary from './LandingLibrary';
 import AnimatedSection from './AnimatedSection';
 import Benefits from './Benefits';
 import Testimonials from './Testimonials';
+import Customers from './Customers';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Benefits></Benefits>
       <AnimatedSection></AnimatedSection>
       <Testimonials></Testimonials>
+      <Customers></Customers>
       <Footer></Footer>
     </div>
   );
