@@ -13,8 +13,8 @@ function App() {
        <Navbar></Navbar>
       <Landpage></Landpage>
       <LandingLibrary></LandingLibrary>
-      <AnimatedSection></AnimatedSection>
       <Benefits></Benefits>
+      <AnimatedSection></AnimatedSection>
       <Testimonials></Testimonials>
       <Footer></Footer>
     </div>
