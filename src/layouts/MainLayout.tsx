@@ -3,8 +3,8 @@ import Footer from "../components/Footer"
 const MainLayout = () => {
   return (
     <>
-    <Footer/> {/*every page will have this components*/}
     <Outlet/>
+    <Footer/> {/*every page will have this components*/}
     </>
   )
 }

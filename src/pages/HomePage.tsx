@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar';
 import Landpage from '../components/Landpage';
-import Footer from '../components/Footer';
 import LandingLibrary from '../components/LandingLibrary';
 import AnimatedSection from '../components/AnimatedSection';
 import Benefits from '../components/Benefits';
@@ -17,7 +16,7 @@ const HomePage = () => {
         <AnimatedSection></AnimatedSection>
         <Testimonials></Testimonials>
         <Customers></Customers>
-        <Footer></Footer>
+        {/* <Footer></Footer> component is in MainLayout.tsx which will appear on all pages*/}
     </>
   )
 }
