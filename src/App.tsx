@@ -1,26 +1,17 @@
-import './App.css';
-import Navbar from './Navbar';
-import Landpage from './Landpage';
-import Footer from './Footer';
-import LandingLibrary from './LandingLibrary';
-import AnimatedSection from './AnimatedSection';
-import Benefits from './Benefits';
-import Testimonials from './Testimonials';
-import Customers from './Customers';
+import {Route, 
+  createBrowserRouter, 
+  createRoutesFromElements,
+  RouterProvider} from 'react-router-dom'
+import HomePage from './pages/HomePage';
 
-function App() {
+const router = createBrowserRouter(
+  createRoutesFromElements(<Route index element = {<HomePage/>}/>)
+);
+
+const App = () => {
   return (
-    <div>
-       <Navbar></Navbar>
-      <Landpage></Landpage>
-      <LandingLibrary></LandingLibrary>
-      <Benefits></Benefits>
-      <AnimatedSection></AnimatedSection>
-      <Testimonials></Testimonials>
-      <Customers></Customers>
-      <Footer></Footer>
-    </div>
-  );
+    <RouterProvider router={router} />
+  )
 }
 
-export default App;
+export default App

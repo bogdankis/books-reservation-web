@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import sectionHeader from './images/section_header.svg';
+import sectionHeader from '../images/section_header.svg';
 
 const AnimatedSection = () => {
   const title = 'Bookster in numbers';

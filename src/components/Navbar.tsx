@@ -1,5 +1,5 @@
 import Login from './Login';
-import logotext from './images/logo-text.svg'
+import logotext from '../images/logo-text.svg'
 
 const Navbar = () => {
     const containerStyle = {

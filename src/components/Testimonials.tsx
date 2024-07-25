@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import bgTestimonials from './images/bg-testimonials.png';
+import bgTestimonials from '../images/bg-testimonials.png';
 import { FaQuoteRight } from "react-icons/fa";
 
 const testimonials = [

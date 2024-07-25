@@ -1,7 +1,7 @@
 
-import imgBooks from './images/img-books.svg';
-import imgArticle from './images/img-article.png';
-import imgVideo from './images/img-video.png';
+import imgBooks from '../images/img-books.svg';
+import imgArticle from '../images/img-article.png';
+import imgVideo from '../images/img-video.png';
 
 
 const Benefits = () => {
