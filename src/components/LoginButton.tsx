@@ -1,6 +1,13 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const LoginButton = () => {
+
+    const navigate = useNavigate();
+
+    const handleLogin = () => {
+        navigate("/login"); {/*go to login page*/}
+    }
 
     const [isHover, setIsHover] = useState(false)
 
@@ -24,8 +31,8 @@ const Login = () => {
 
     return(
         <button type="button" style={boxStyle} onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}>Login</button>
+        onMouseLeave={handleMouseLeave} onClick={handleLogin}>Login</button>
     )
 }
 
-export default Login;
+export default LoginButton;
