@@ -3,9 +3,16 @@ import {Route,
   createRoutesFromElements,
   RouterProvider} from 'react-router-dom'
 import HomePage from './pages/HomePage';
+import MainLayout from './layouts/MainLayout';
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route index element = {<HomePage/>}/>)
+  createRoutesFromElements(
+    <Route path="/" element = {<MainLayout/>}> {/*components that appears on every page without repeating*/}
+        <Route index element = {<HomePage/>}/>
+    </Route>
+
+  
+)
 );
 
 const App = () => {
