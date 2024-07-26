@@ -1,8 +1,15 @@
 import bgLogin from '../images/bg-login.png';
 import header from '../images/login-header.svg';
+import { useNavigate } from "react-router-dom";
+
 
 
 const LoginPage = () => {
+  const navigate = useNavigate();
+
+const handleUserAcces = () =>{
+  navigate("/home"); {/*go to users manin page after login*/}
+}
   return (
 <div
       className="d-flex justify-content-center align-items-center vh-100"
@@ -32,7 +39,7 @@ const LoginPage = () => {
                 <div className="mb-3 text-end">
                   <a href="#" className="text-decoration-none">Forgot passowrd?</a>
                 </div>
-                <button type="submit" className="btn btn-success w-100">Login</button>
+                <button type="submit" className="btn btn-success w-100" onClick={handleUserAcces}>Login</button>
               </form>
               <div className="mt-3 text-center">
                 <p>Dont' have an account? <a href="#" className="text-decoration-none">Create account</a></p>
