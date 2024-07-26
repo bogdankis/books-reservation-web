@@ -15,7 +15,7 @@ const LoginPage = () => {
               <div className="text-center mb-4">
                 <img src={header} alt="Bookster Logo" style={{ width: '150px' }} />
               </div>
-              <h5 className="text-center mb-4">Login</h5>
+              <h5 className="text-center mb-4">Access account</h5>
               <form>
                 <div className="mb-3">
                   <label htmlFor="formEmail" className="form-label">
@@ -32,7 +32,7 @@ const LoginPage = () => {
                 <div className="mb-3 text-end">
                   <a href="#" className="text-decoration-none">Forgot passowrd?</a>
                 </div>
-                <button type="submit" className="btn btn-success w-100">Intră în cont</button>
+                <button type="submit" className="btn btn-success w-100">Login</button>
               </form>
               <div className="mt-3 text-center">
                 <p>Dont' have an account? <a href="#" className="text-decoration-none">Create account</a></p>
