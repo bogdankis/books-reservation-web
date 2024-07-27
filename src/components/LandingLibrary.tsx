@@ -1,6 +1,6 @@
-import CampaingImg from '../images/img-campaigns.svg';
-import ModernImg from '../images/img-modern.svg';
-import PersonalizedImg from '../images/img-personalized.svg';
+import CampaingImg from '../images/homeGuestPage/img-campaigns.svg';
+import ModernImg from '../images/homeGuestPage/img-modern.svg';
+import PersonalizedImg from '../images/homeGuestPage/img-personalized.svg';
 
 const LandingLibrary = () => {
     return(

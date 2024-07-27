@@ -1,4 +1,4 @@
-import header from '../images/header.svg';
+import header from '../images/homeGuestPage/header.svg';
 import CreateAccountButton from "./CreateAccountButton";
 
 const Landpage = () => {
