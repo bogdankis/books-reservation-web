@@ -1,6 +1,10 @@
+import Navbar from "../components-user/Navbar"
+
 const HomePageUser = () => {
   return (
-    <div>HomePageUser</div>
+    <>
+    <Navbar/>
+    </>
   )
 }
 
