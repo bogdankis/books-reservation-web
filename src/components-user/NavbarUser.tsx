@@ -1,4 +1,5 @@
 import { FaBook, FaInfoCircle, FaSearch } from 'react-icons/fa';
+import logoTextUser from '../images/homeUserPage/logo-text-user.svg';
 
 
 const NavbarUSer = () => {
@@ -69,7 +70,7 @@ const NavbarUSer = () => {
             {/* Logo Section */}
             <div style={containerStyle}>
                 <div style={logoStyle}>
-                    <img src={"logoTextUser"} alt="logo" width="80" />
+                    <img src={logoTextUser} alt="logo" width="197px" height="55px" />
                     <a href="/library" style={navItemStyle}>
                         <FaBook style={navIconStyle} /> Library
                     </a>
