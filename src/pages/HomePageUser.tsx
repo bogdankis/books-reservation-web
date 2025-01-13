@@ -1,9 +1,9 @@
-import Navbar from "../components-user/Navbar"
+import NavbarUser from "../components-user/NavbarUser"
 
 const HomePageUser = () => {
   return (
     <>
-    <Navbar/>
+    <NavbarUser/>
     </>
   )
 }
