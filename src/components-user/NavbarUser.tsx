@@ -8,7 +8,7 @@ const NavbarUSer = () => {
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: '10px 20px',
-        backgroundColor: '#ffffff', // Replace with desired background color
+        backgroundColor: '#ffffff', // Background color
         borderBottom: '1px solid #ccc',
     } as React.CSSProperties;
 
@@ -42,26 +42,26 @@ const NavbarUSer = () => {
 
     const searchInputStyle = {
         width: '100%',
-        padding: '6px 12px', // Adjusted padding to increase height
+        padding: '6px 12px', // Adjust padding to increase height
         border: '1px solid #e74c3c',
         borderRight: 'none',
         borderRadius: '4px 0 0 4px',
         fontSize: '16px',
-        boxSizing: 'border-box', // Ensures consistent height across browsers
+        boxSizing: 'border-box', // Consistent height across browsers
     } as React.CSSProperties;
     
     const searchButtonStyle = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '10px 16px', // Matches input height
+        padding: '10px 16px', 
         backgroundColor: '#e74c3c',
         border: '1px solid #e74c3c',
         borderRadius: '0 4px 4px 0',
         cursor: 'pointer',
         color: '#fff',
-        boxSizing: 'border-box', // Ensures consistent height across browsers
-        height: 'auto', // Ensures button adjusts with padding
+        boxSizing: 'border-box', 
+        height: 'auto', 
     } as React.CSSProperties;
     
 
